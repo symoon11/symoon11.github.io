@@ -1,0 +1,181 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Seungyong Moon</title>
+  
+  <meta name="author" content="Seungyong Moon">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Seungyong Moon</name>
+              </p>
+              <p>
+                I am a third-year Ph.D. student at Seoul National University, working in <a href="https://mllab.snu.ac.kr">Machine Learning Lab</a>.
+              </p>
+              <p>
+                Under construction  
+              </p>
+              <p style="text-align:center">
+                <a href="mailto:symoon11@mllab.snu.ac.kr">Email</a> &nbsp/&nbsp
+                <a href="data/JonBarron-CV.pdf">CV</a> &nbsp/&nbsp
+                <a href="https://scholar.google.com/citations?user=peAk7psAAAAJ&hl=ko">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://github.com/drillermoon/">Github</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <a href="images/JonBarron.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/JonBarron_circle.jpg" class="hoverZoomLink"></a>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Research</heading>
+              <p>
+                I'm interested in computer vision, machine learning, optimization, and image processing. Much of my research is about inferring the physical world (shape, motion, color, light, etc) from images. Representative papers are <span class="highlight">highlighted</span>.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a>
+                <papertitle>Preemptive Image Robustification for Protecting Users against Man-in-the-Middle Adversarial Attacks</papertitle>
+              </a>
+              <br>
+              <strong>Seungyong Moon*</strong>,
+              Gaon An*,
+              <a href="https://mllab.snu.ac.kr/hyunoh/">Hyun Oh Song</a>
+              <br>
+              <em>AAAI Conference on Artificial Intelligence (AAAI)</em>, 2022 (to appear)
+              <br>
+              <a href="https://github.com/snu-mllab/preemptive-robustification">code</a> /
+              <a href="data/moon22aaai.txt">bibtex</a>
+              <p></p>
+              <p>Leveraging an intriguing property of deep neural networks that they have robust points near in-distribution datapoints, we propose a novel defense framework that preemptively modifies images ahead of adversarial attacks, which can be applied to a realistic scenario.</p>
+            </td>
+          </tr>
+
+          <tr onmouseout="run_stop()" onmouseover="run_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div id='run' class='hidden'><img width="160" src="images/an21neurips.gif"></div>
+              <div id='stop'>
+                <a href="images/an21neurips.gif"><img width="160" src="images/an21neurips.png"></a>
+              </div>
+              <script type="text/javascript">
+                function run_start() {
+                  document.getElementById('run').style.display = 'inline';
+                  document.getElementById('stop').style.display = 'none';
+                }
+
+                function run_stop() {
+                  document.getElementById('run').style.display = 'none';
+                  document.getElementById('stop').style.display = 'inline';
+                }
+                run_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2110.01548">
+                <papertitle>Uncertainty-Based Offline Reinforcement Learning with Diversified Q-Ensemble</papertitle>
+              </a>
+              <br>
+              Gaon An*,
+              <strong>Seungyong Moon*</strong>,
+              <a href="https://janghyun1230.github.io/">Jang-Hyun Kim</a>,
+              <a href="https://mllab.snu.ac.kr/hyunoh/">Hyun Oh Song</a>
+              <br>
+              <em>Neural Information Processing Systems (NeurIPS)</em>, 2021
+              <br>
+              <a href="https://github.com/snu-mllab/EDAC">code</a> /
+              <a href="data/an21neurips.txt">bibtex</a>
+              <p></p>
+              <p>Q-function ensemble technique, developed for addressing overestimation bias in online RL, can be also applied to offline setting with Q-function diversification. We propose a simple offline RL algorithm that does not require behavior cloning or explicit Q-value penalization.</p>
+            </td>
+          </tr>
+
+          <tr onmouseout="attack_stop()" onmouseover="attack_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div id='attack' class='hidden'><img width="160" src="images/moon19icml.gif"></div>
+              <div id='noattack'>
+                <a href="images/moon19icml.gif"><img width="160" src="images/moon19icml.png"></a>
+              </div>
+              <script type="text/javascript">
+                function attack_start() {
+                  document.getElementById('attack').style.display = 'inline';
+                  document.getElementById('noattack').style.display = 'none';
+                }
+
+                function attack_stop() {
+                  document.getElementById('attack').style.display = 'none';
+                  document.getElementById('noattack').style.display = 'inline';
+                }
+                attack_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/1905.06635">
+                <papertitle>Parsimonious Black-Box Adversarial Attacks via Efficient Combinatorial Optimization</papertitle>
+              </a>
+              <br>
+              <strong>Seungyong Moon*</strong>,
+              Gaon An*,
+              <a href="https://mllab.snu.ac.kr/hyunoh/">Hyun Oh Song</a>
+              <br>
+              <em>International Conference on Machine Learning (ICML)</em>, 2019 &nbsp <font color="red"><strong>(Long Talk, 159/3424=4.6%)</strong></font>
+              <br>
+              <a href="https://github.com/snu-mllab/parsimonious-blackbox-attack">code</a> /
+              <a href="data/moon19icml.txt">bibtex</a>
+              <p></p>
+              <p>We develop a query-effecient black-box adversarial attack against deep neural networks that does not require gradient estimation and becomes free of hyperparameters to tune, based on local search algorithm for non-monotone submodular function maximization.</p>
+            </td>
+          </tr>
+
+        </tbody></table>
+        
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+          <td style="padding:20px;width:100%;vertical-align:middle">
+            <heading>Teaching Experience</heading>
+            <ul>
+              <li>Teaching Assistant, 4190.666 Machine Learning Fall 2020</li>
+              <li>Teaching Assistant, M2177.0043 Introduction to Deep Learning Spring 2019</li>
+              <li>Undergraduate Student Instructor, 033.017 Basic Calculus 2 Fall 2017</li>
+              <li>Undergraduate Student Instructor, 033.016 Basic Calculus 1 Spring 2017</li>
+            </ul>
+          </td>
+          </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right;font-size:small;">
+                This website is modified from <a href="https://jonbarron.info/">here</a>.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>

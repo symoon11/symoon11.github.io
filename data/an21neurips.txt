@@ -1,0 +1,6 @@
+@inproceedings{an21neurips,
+    title={Uncertainty-Based Offline Reinforcement Learning with Diversified Q-Ensemble},
+    author={Gaon An and Seungyong Moon and Jang-Hyun Kim and Hyun Oh Song},
+    booktitle={Neural Information Processing Systems (NeurIPS)},
+    year={2021}
+}
