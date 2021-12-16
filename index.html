@@ -47,9 +47,24 @@
         </tbody></table>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
+          <tr onmouseout="defense_stop()" onmouseover="defense_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
-              <img width="160" src="images/moon22aaai.gif">
+              <div id='defense' class='hidden'><img width="160" src="images/moon22aaai.gif"></div>
+              <div id='nodefense'>
+                <a href="images/moon22aaai.gif"><img width="160" src="images/moon22aaai.png"></a>
+              </div>
+              <script type="text/javascript">
+                function defense_start() {
+                  document.getElementById('defense').style.display = 'inline';
+                  document.getElementById('nodefense').style.display = 'none';
+                }
+
+                function defense_stop() {
+                  document.getElementById('defense').style.display = 'none';
+                  document.getElementById('nodefense').style.display = 'inline';
+                }
+                defense_stop()
+              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2112.05634">
