@@ -1,0 +1,6 @@
+@inproceedings{leeICML22,
+title = {Query-Efficient and Scalable Black-Box Adversarial Attacks on Discrete Sequential Data via Bayesian Optimization},
+author = {Lee, Deokjae and Moon, Seungyong and Lee, Junhyeok and Song, Hyun Oh},
+booktitle = {International Conference on Machine Learning (ICML)},
+year = {2022}
+}
