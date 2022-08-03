@@ -51,6 +51,44 @@
             </td>  
           </tr>
 
+          <tr onmouseout="text_stop()" onmouseover="text_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div id='text' class='hidden'><img width="160" src=""></div>
+              <div id='notext'>
+                <a href=""><img width="160" src=""></a>
+              </div>
+              <script type="text/javascript">
+                function text_start() {
+                  document.getElementById('text').style.display = 'inline';
+                  document.getElementById('notext').style.display = 'none';
+                }
+
+                function text_stop() {
+                  document.getElementById('text').style.display = 'none';
+                  document.getElementById('notext').style.display = 'inline';
+                }
+                text_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2112.05634">
+                <papertitle>Query-Efficient and Scalable Black-Box Adversarial Attacks on Discrete Sequential Data via Bayesian Optimization</papertitle>
+              </a>
+              <br>
+              Deokjae Lee,
+              <strong>Seungyong Moon</strong>,
+              Junhyeok Lee,
+              <a href="https://mllab.snu.ac.kr/hyunoh/">Hyun Oh Song</a>
+              <br>
+              <em>ICML</em>, 2022
+              <br>
+              <a href="https://github.com/snu-mllab/preemptive-robustification">code</a> /
+              <a href="data/moon22aaai.txt">bibtex</a>
+              <p></p>
+              <p>haha</p>
+            </td>
+          </tr>
+
           <tr onmouseout="defense_stop()" onmouseover="defense_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div id='defense' class='hidden'><img width="160" src="images/moon22aaai.gif"></div>
