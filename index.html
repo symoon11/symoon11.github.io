@@ -50,6 +50,43 @@
               <heading>Publications</heading>
             </td>  
           </tr>
+          
+          <tr onmouseout="rl_gen_stop()" onmouseover="rl_gen_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div id='text' class='hidden'><img width="160"></div>
+              <div id='notext'>
+                <a href=""><img width="160"></a>
+              </div>
+              <script type="text/javascript">
+                function rl_gen_start() {
+                  document.getElementById('text').style.display = 'inline';
+                  document.getElementById('notext').style.display = 'none';
+                }
+
+                function rl_gen_stop() {
+                  document.getElementById('text').style.display = 'none';
+                  document.getElementById('notext').style.display = 'inline';
+                }
+                text_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2206.08575">
+                <papertitle>Rethinking Value Function Learning for Generalization in Reinforcement Learning</papertitle>
+              </a>
+              <br>
+              <strong>Seungyong Moon</strong>,
+              JunYeong Lee,
+              <a href="https://mllab.snu.ac.kr/hyunoh/">Hyun Oh Song</a>
+              <br>
+              <em> Neural Information Processing Systems (NeurIPS)</em>, 2022
+              <br>
+              <a>code</a> /
+              <a>bibtex</a>
+              <p></p>
+              <p></p>
+            </td>
+          </tr>
 
           <tr onmouseout="text_stop()" onmouseover="text_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
