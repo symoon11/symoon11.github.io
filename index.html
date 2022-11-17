@@ -59,23 +59,23 @@
             </td>  
           </tr>
           
-          <tr onmouseout="rl_gen_stop()" onmouseover="rl_gen_start()">
+          <tr onmouseout="dcpg_stop()" onmouseover="dcpg_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
-              <div id='text' class='hidden'><img width="160"></div>
-              <div id='notext'>
-                <a href=""><img width="160"></a>
+              <div id='dcpg' class='hidden'><img width="160" src="images/moon22neurips.gif"></div>
+              <div id='nodcpg'>
+                <a href="images/moon22neurips.gif"><img width="160" src="images/moon22neurips.png"></a>
               </div>
               <script type="text/javascript">
-                function rl_gen_start() {
-                  document.getElementById('text').style.display = 'inline';
-                  document.getElementById('notext').style.display = 'none';
+                function dcpg_start() {
+                  document.getElementById('dcpg').style.display = 'inline';
+                  document.getElementById('nodcpg').style.display = 'none';
                 }
 
-                function rl_gen_stop() {
-                  document.getElementById('text').style.display = 'none';
-                  document.getElementById('notext').style.display = 'inline';
+                function dcpg_stop() {
+                  document.getElementById('dcpg').style.display = 'none';
+                  document.getElementById('nodcpg').style.display = 'inline';
                 }
-                text_stop()
+                dcpg_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
@@ -96,23 +96,23 @@
             </td>
           </tr>
 
-          <tr onmouseout="text_stop()" onmouseover="text_start()">
+          <tr onmouseout="bba_stop()" onmouseover="bba_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
-              <div id='text' class='hidden'><img width="160" src="images/lee22icml.gif"></div>
-              <div id='notext'>
-                <a href=""><img width="160" src="images/lee22icml.png"></a>
+              <div id='bba' class='hidden'><img width="160" src="images/lee22icml.gif"></div>
+              <div id='nobba'>
+                <a href="images/lee22icml.gif"><img width="160" src="images/lee22icml.png"></a>
               </div>
               <script type="text/javascript">
-                function text_start() {
-                  document.getElementById('text').style.display = 'inline';
-                  document.getElementById('notext').style.display = 'none';
+                function bba_start() {
+                  document.getElementById('bba').style.display = 'inline';
+                  document.getElementById('nobba').style.display = 'none';
                 }
 
-                function text_stop() {
-                  document.getElementById('text').style.display = 'none';
-                  document.getElementById('notext').style.display = 'inline';
+                function bba_stop() {
+                  document.getElementById('bba').style.display = 'none';
+                  document.getElementById('nobba').style.display = 'inline';
                 }
-                text_stop()
+                bba_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
@@ -134,23 +134,23 @@
             </td>
           </tr>
 
-          <tr onmouseout="defense_stop()" onmouseover="defense_start()">
+          <tr onmouseout="pir_stop()" onmouseover="pir_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
-              <div id='defense' class='hidden'><img width="160" src="images/moon22aaai.gif"></div>
-              <div id='nodefense'>
+              <div id='pir' class='hidden'><img width="160" src="images/moon22aaai.gif"></div>
+              <div id='nopir'>
                 <a href="images/moon22aaai.gif"><img width="160" src="images/moon22aaai.png"></a>
               </div>
               <script type="text/javascript">
-                function defense_start() {
-                  document.getElementById('defense').style.display = 'inline';
-                  document.getElementById('nodefense').style.display = 'none';
+                function pir_start() {
+                  document.getElementById('pir').style.display = 'inline';
+                  document.getElementById('nopir').style.display = 'none';
                 }
 
-                function defense_stop() {
-                  document.getElementById('defense').style.display = 'none';
-                  document.getElementById('nodefense').style.display = 'inline';
+                function pir_stop() {
+                  document.getElementById('pir').style.display = 'none';
+                  document.getElementById('nopir').style.display = 'inline';
                 }
-                defense_stop()
+                pir_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
@@ -171,23 +171,23 @@
             </td>
           </tr>
 
-          <tr onmouseout="run_stop()" onmouseover="run_start()">
+          <tr onmouseout="pa_stop()" onmouseover="pa_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
-              <div id='run' class='hidden'><img width="160" src="images/an21neurips.gif"></div>
-              <div id='stop'>
+              <div id='pa' class='hidden'><img width="160" src="images/an21neurips.gif"></div>
+              <div id='nopa'>
                 <a href="images/an21neurips.gif"><img width="160" src="images/an21neurips.png"></a>
               </div>
               <script type="text/javascript">
-                function run_start() {
-                  document.getElementById('run').style.display = 'inline';
-                  document.getElementById('stop').style.display = 'none';
+                function pa_start() {
+                  document.getElementById('pa').style.display = 'inline';
+                  document.getElementById('nopa').style.display = 'none';
                 }
 
-                function run_stop() {
-                  document.getElementById('run').style.display = 'none';
-                  document.getElementById('stop').style.display = 'inline';
+                function pa_stop() {
+                  document.getElementById('pa').style.display = 'none';
+                  document.getElementById('nopa').style.display = 'inline';
                 }
-                run_stop()
+                pa_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
