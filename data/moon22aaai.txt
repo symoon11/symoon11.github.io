@@ -1,4 +1,4 @@
-@inproceedings{moon22aaai,
+@inproceedings{moon22preemptive,
     title= {Preemptive Image Robustification for Protecting Users against Man-in-the-Middle Adversarial Attacks},
     author={Moon, Seungyong and An, Gaon and Song, Hyun Oh},
     booktitle = {AAAI Conference on Artificial Intelligence (AAAI)},

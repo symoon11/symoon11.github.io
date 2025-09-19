@@ -1,4 +1,4 @@
-@inproceedings{moon2022dcpg,
+@inproceedings{moon2022rethinking,
     title={Rethinking Value Function Learning for Generalization in Reinforcement Learning},
     author={Seungyong Moon and JunYeong Lee and Hyun Oh Song},
     booktitle={Neural Information Processing Systems},

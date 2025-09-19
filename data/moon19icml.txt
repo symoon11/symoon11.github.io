@@ -1,4 +1,4 @@
-@inproceedings{moon19icml,
+@inproceedings{moon19parsimonious,
     title= {Parsimonious Black-Box Adversarial Attacks via Efficient Combinatorial Optimization},
     author={Moon, Seungyong and An, Gaon and Song, Hyun Oh},
     booktitle = {International Conference on Machine Learning (ICML)},
