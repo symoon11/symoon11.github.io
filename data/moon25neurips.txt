@@ -4,10 +4,3 @@
     booktitle={Neural Information Processing Systems},
     year={2025}
 }
-
-@article{moon2024gsos,
-    title={Learning to Better Search with Language Models via Guided Reinforced Self-Training},
-    author={Seungyong Moon and Bumsoo Park and Hyun Oh Song},
-    journal={arXiv preprint arXiv:2410.02992},
-    year={2024}
-}
