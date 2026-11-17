@@ -1,0 +1,6 @@
+@article{moon2026retiming,
+    title={Retiming Robot Demonstrations with a Learned Speed Prior},
+    author={Seungyong Moon and Deokjae Lee and Hansang Lee and Munkhtselmeg Battsengel and Youngin Kim and Seonghyeon Yun and Sungjin Jeon and SongEun Kim and Jeongmin Park and Hyun Oh Song},
+    journal={arXiv preprint arXiv:2610.32676},
+    year={2026}
+}
